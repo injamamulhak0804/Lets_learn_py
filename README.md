@@ -1,5 +1,5 @@
 # Day - 01
-# 06/08/24
+- 06/08/24
 
 # Learning Strings and variables
 # ------Topics------
@@ -8,7 +8,7 @@
     - String Formatting
     - string basic operation
 
-Day - 02
-07/08/24
-------Topics------
+# Day - 02
+- 07/08/24
+# ------Topics------
     - condition and loops
