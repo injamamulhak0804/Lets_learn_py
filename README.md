@@ -1,8 +1,8 @@
-Day - 01
-06/08/24
+# Day - 01
+# 06/08/24
 
-Learning Strings and variables
-------Topics------
+# Learning Strings and variables
+# ------Topics------
     - Variables => int, float, strings, boolean, lists[], dictionaries{key: value}, tupes(), sets{}
     - List [], list methods
     - String Formatting
