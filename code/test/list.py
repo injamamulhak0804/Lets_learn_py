@@ -1,6 +1,7 @@
-#1. List Syntax = 
+#1.List Syntax = []
 #2.how many types of list methods are there and give example for each method.
-#3.In list they use sort or sorted method
+#3.In list they use sort() or sorted() method
+#4.Does sort() had any argument.
 #For More Question  👇👇
 
 
@@ -53,9 +54,9 @@ print(numbers)
 print(strings)
 print("The second name on the names list is %s" % second_name)
 
+#===========================================================================================================
+#5. Sample lists for testing
 
-
-# Sample lists for testing
 mylist = [1, 2, 3, 4, 5]
 another_list = ['a', 'b', 'c', 'd']
 mixed_list = [1, 'two', 3.0, [4, 5]]
@@ -102,7 +103,7 @@ reversed_list = list(reversed(mylist))  # Reverses and returns a new list
 mylist.reverse()  # Reverses in place
 
 # Intermediate Level
-
+    
 # 8. List comprehension
 squared_numbers = [x**2 for x in mylist if isinstance(x, int)]
 
@@ -114,6 +115,7 @@ slice_step = mylist[::2]
 
 # 11. Copying a list
 list_copy = mylist.copy()
+# write a code for deepcopy by import a copy 
 
 # 12. Clearing a list
 mylist.clear()
