@@ -11,7 +11,7 @@
 %x/%X - Integers in hex representation (lowercase/uppercase)
 
 There are 10 string methods they are
-1. upper()
+1.upper()
 2.lower()
 3.title()
 4.capitalize()

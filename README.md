@@ -11,4 +11,4 @@
 # Day - 02
 - 07/08/24
 # ------Topics------
-    - condition and loops
+    - condition
