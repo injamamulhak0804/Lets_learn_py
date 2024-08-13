@@ -1,5 +1,4 @@
 function palimdrome(value){
-
     revstr = String(value).split('').reverse().join("")
     if(revstr == value){
         console.log("palindrome");
@@ -7,4 +6,4 @@ function palimdrome(value){
         console.log("Not a palindrome");
     }
 }
-palimdrome(121)
+// palimdrome(121)
