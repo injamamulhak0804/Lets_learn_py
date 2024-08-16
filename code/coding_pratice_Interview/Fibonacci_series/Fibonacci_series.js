@@ -21,3 +21,4 @@ const Fibonacci_series2 = (num) => {
 }
 
 // Fibonacci_series2(10)
+
