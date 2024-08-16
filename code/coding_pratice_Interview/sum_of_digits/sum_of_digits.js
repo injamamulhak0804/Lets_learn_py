@@ -9,4 +9,4 @@ const sum_of_digits = (n) =>{
     
 }
 
-sum_of_digits(123)
+// sum_of_digits(123)
