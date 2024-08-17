@@ -8,4 +8,4 @@ const Kth_largest_element = (arr) =>{
     console.log("Kth_largest_element is: ", kth);
     
 }
-Kth_largest_element([234,234,89,23,567,45,123])
+// Kth_largest_element([234,234,89,23,567,45,123])
