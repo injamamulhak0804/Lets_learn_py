@@ -8,4 +8,4 @@ const sum_natural_num = (n) =>{
 }
 
 
-sum_natural_num(8)
+// sum_natural_num(8)
