@@ -3,7 +3,7 @@ const reverseArray = (arr)=>{
     const ans1 = [] 
     
     //without plugin
-    for(let i= arr.length; i > 0; i--){
+    for(let i = arr.length; i > 0; i--){
         ans1.push(i)
     }
 

@@ -2,7 +2,7 @@ const anagram_check = (s1, s2) =>{
     let s1len = s1.length
     let s2len = s2.length
     let count = 0
-    console.log(s1));
+    console.log(s1);
     
     if(s1len === s2len){
         for(let i = 0; i < s1len; i++){
@@ -25,4 +25,4 @@ const anagram_check = (s1, s2) =>{
     }
 }
 
-anagram_check("zamamu", "mamjaz")
+// anagram_check("zamamu", "mamjaz")
