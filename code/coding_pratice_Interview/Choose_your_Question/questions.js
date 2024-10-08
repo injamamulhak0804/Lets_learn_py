@@ -7,4 +7,4 @@ const question_of_the_day = () =>{
     
 }
 
-question_of_the_day()
+// question_of_the_day()
