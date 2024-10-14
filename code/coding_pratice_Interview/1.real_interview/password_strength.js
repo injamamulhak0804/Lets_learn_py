@@ -24,7 +24,7 @@ const passwordStrength = (input) =>{
     return strength
 }
 
-const strength = passwordStrength("password12@3P") // 1
+// const strength = passwordStrength("password12@3P") // 1
 // console.log(strength);
 
 
@@ -67,4 +67,4 @@ const optimizeMorePasswordStrength = (input) =>{
     console.log(str);
     
 }
-optimizePasswordStrength("Password123@")
+// optimizePasswordStrength("Password123@")

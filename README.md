@@ -1,5 +1,8 @@
+- Bootstarp => panel group
+- css => grid
+- HTML => <a href="link" target="_blank"> is it secure a new window or not
 - 503, 301 status => ?
-- password strength password length, upperCase, lowerCase, number, special character. 
+- Problem Solving => password strength password length, upperCase, lowerCase, number, special character. 
 
 # Day - 01
 - 06/08/24

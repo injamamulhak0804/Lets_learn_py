@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .email_inc{
+            visibility:hidden;
+        }
+        .pass_inc{
+            visibility:hidden;
+        }
+        .fill{
+            visibility:hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello Form</h1>
+    <form onsubmit="event.preventDefault()">
+        <input id="name" type="text" placeholder="name" name="" id=""> 
+        <p></p>
+        <input id="email" type="text" placeholder="email" >
+        <p class="email_inc">Fill the email correctly</p>
+        <input id="password" text="password" placeholder="password" >
+        <p class="pass_inc">password Must be Upper & Lower Case, Number, greater 8 digit, special Character</p>
+        <Button id="btn">Submit</Button>
+        <p class="fill">Fill all the Fields</p>
+    </form>
+    <script src="./form.js"></script>
+</body>
+</html>
