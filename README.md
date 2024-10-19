@@ -3,6 +3,10 @@
 - HTML => <a href="link" target="_blank"> is it secure a new window or not
 - 503, 301 status => ?
 - Problem Solving => password strength password length, upperCase, lowerCase, number, special character. 
+- Form Validation 
+- Reverse a string
+- Curosal
+- progress bar
 
 # Day - 01
 - 06/08/24

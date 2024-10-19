@@ -23,7 +23,6 @@ Button.addEventListener("click", ()=>{
         }
         Validation(password)
     }
-    
 })
 
 function FillAllFields(){
@@ -37,7 +36,7 @@ function Validation(user_pass){
     const isSpecial =  /[^\w\s]/.test(user_pass)
 
 
-    if(!user_pass >= 8 || !isLower || !isUpper || !isNumber || !isSpecial){
+    if(!user_pass >= minlength || !isLower || !isUpper || !isNumber || !isSpecial){
         Password_INC.style.visibility = "visible" 
     }else{
         Password_INC.style.visibility = "hidden" 

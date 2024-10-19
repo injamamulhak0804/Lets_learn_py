@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.img_wrapper{
+    width: 80%;
+    height: 100%;
+    margin: 10px auto;
+}
+.img_wrapper > img{
+    width: 90%;
+    height: 600px;
+    object-fit: contain;
+}
+span{
+    font-size: 5rem;
+}
+.img_wrapper{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+#right, #left{
+    cursor: pointer;
+}
+.disable{
+    user-select: none;
+    opacity: 0.5;
+}
