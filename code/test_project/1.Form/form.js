@@ -12,12 +12,14 @@ Button.addEventListener("click", ()=>{
     const email = EmailEl.value
     const password = PasswordEl.value
 
+
     if(!name || !email || !password){
         FillAllFields()
     }else{
         FillEl.style.visibility = "hidden"
-        if(!email.includes("@")){
-            Email_INC.style.visibility = "visible"
+        
+        if(!email.includes("@gmail.com")){
+            Email_INC.style.visibility = "visible" 
         }else{
             Email_INC.style.visibility = "hidden"    
         }
@@ -35,11 +37,9 @@ function Validation(user_pass){
     const isNumber = /\d/.test(user_pass)
     const isSpecial =  /[^\w\s]/.test(user_pass)
 
-
     if(!user_pass >= minlength || !isLower || !isUpper || !isNumber || !isSpecial){
         Password_INC.style.visibility = "visible" 
     }else{
         Password_INC.style.visibility = "hidden" 
     }
-
 }

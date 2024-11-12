@@ -7,4 +7,4 @@ const factorial = (n) => {
     
 
 }
-// factorial(5)
+// factorial(4)

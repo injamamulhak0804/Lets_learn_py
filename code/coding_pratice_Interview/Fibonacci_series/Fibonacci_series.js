@@ -12,7 +12,6 @@ const Fibonacci_series = (num) => {
 }
 
 const Fibonacci_series2 = (num) => {
-    let a = 0, b = 1, c = 0, n = num;
     let arr = [0, 1]
     for(let i = 2; i < num; i++){
         arr[i] = arr[i - 1] + arr[i - 2]

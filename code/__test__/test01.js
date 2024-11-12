@@ -19,4 +19,4 @@ const passwordStrengthInTest = (input) =>{
     console.log(result);
     
 }
-passwordStrengthInTest("mame")
+// passwordStrengthInTest("mame")

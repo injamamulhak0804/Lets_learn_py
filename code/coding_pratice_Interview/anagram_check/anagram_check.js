@@ -8,6 +8,7 @@ const anagram_check = (s1, s2) =>{
         for(let i = 0; i < s1len; i++){
             for(let j = 0; j < s2len; j++){
                 if(s1[i] == s2[j]){
+                    s1[i] = "_"
                     count++
                     break;
                 }
@@ -25,4 +26,4 @@ const anagram_check = (s1, s2) =>{
     }
 }
 
-// anagram_check("zamamu", "mamjaz")
+// anagram_check("zamamu", "mamauz")
