@@ -24,9 +24,10 @@
 - 07/08/24
 
 # ------Topics------
-    - condition
-    - Adding some real interview question
-    - Adding - COURSE 
+- condition
+- Adding some real interview question
+- Adding - COURSE 
 
 # 12-07-204 dec
- - Basic Problems 30/30
+- Basic Problems 30/30
+- Patterns
